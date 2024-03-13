@@ -1,0 +1,37 @@
+.box {
+  height: 200px;
+  width: 200px;
+}
+.color-title {
+  font-weight: normal;
+}
+.box.color-red {
+  background-color: red;
+}
+.box.color-blue {
+  background-color: blue;
+}
+.box.color-orange {
+  background-color: orange;
+}
+.box.color-green {
+  background-color: green;
+}
+.box.color-yellow {
+  background-color: yellow;
+}
+#red {
+  color: red;
+}
+#blue {
+  color: blue;
+}
+#orange {
+  color: orange;
+}
+#green {
+  color: green;
+}
+#yellow {
+  color: yellow;
+}

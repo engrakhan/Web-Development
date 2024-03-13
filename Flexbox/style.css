@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 500px;
+  height: 300px;
+  background-color: red;
+  margin: 0 auto;
+}
+.item {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  /* margin: 0 auto; */
+  text-align: center;
+  margin: 10px;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+.second {
+  display: flex;
+  justify-content: space-between;
+}
