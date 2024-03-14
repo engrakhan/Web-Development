@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f0ed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  transition: background-color 0.5s ease; /* Add transition for background color change */
+}
+
+body:hover {
+  background-color: #e0e0e0; /* Change background color on hover */
+}
+
+.container {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Adjust shadow for better depth */
+  max-width: 350px; /* Increase max-width slightly */
+  width: 100%;
+  transition: box-shadow 0.2s ease; /* Add transition for box-shadow */
+}
+
+.container:hover {
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); /* Enhance hover effect for shadow */
+}
+
+h1 {
+  font-size: 26px; /* Increase font size slightly */
+  text-align: center;
+  margin-bottom: 20px;
+  color: #49497e; /* Add color */
+}
+
+.form-group {
+  margin-bottom: 15px; /* Increase spacing between groups */
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #49497e; /* Add color */
+}
+
+.form-group input {
+  width: 100%; /* Set width to 100% for better responsiveness */
+  padding: 12px 15px; /* Adjust padding for better look */
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.calculate-btn {
+  padding: 12px 25px; /* Adjust padding for better fit */
+  background-color: #49497e;
+  color: #fff;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Add transition for button color change */
+}
+
+.calculate-btn:hover {
+  background-color: #2979ff; /* Enhance hover effect for button */
+}
+
+.result {
+  font-size: 20px; /* Increase font size slightly */
+  text-align: center;
+  margin-top: 15px;
+  color: #49497e; /* Add color */
+}
