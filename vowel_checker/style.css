@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+  background-color: rgb(238, 230, 114);
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  height: 400px;
+  width: 500px;
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: column;
+  box-shadow: 10px 10px 10px 5px red;
+}
+h1 {
+  text-align: center;
+  padding: 10px 0px;
+}
+#vowel {
+  width: 340px;
+  height: 280px;
+  margin: 0 auto;
+  padding: 10px 10px;
+  border-radius: 15px;
+}
+.container:hover {
+  box-shadow: 5px 5px 10px 5px red;
+}
+.count {
+  margin: 10px auto;
+  background: blue;
+  border: none;
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+}
+p {
+  text-align: center;
+  margin-bottom: 2px;
+}
